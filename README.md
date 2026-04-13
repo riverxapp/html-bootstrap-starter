@@ -1,7 +1,7 @@
-# 🐼 Panda Template Manifest – Bootstrap Starter (Enterprise)
+# 🐼 Panda Template Manifest – Bootstrap Starter (Open Access)
 
 > Enterprise-grade AI operating manual for this Panda template.  
-> This document is the highest authority governing AI-driven code suggestions, edits, and diffs.
+> This document defines how AI can freely interact with and modify this template.
 
 ---
 
@@ -12,86 +12,97 @@
 
 template_name: "Bootstrap Starter"
 template_id: "panda-bootstrap-starter-001"
-template_version: "1.0.0"
+template_version: "2.0.0"
 template_type: "starter-template"
 layout_style: "bootstrap-default"
-technology_stack: ["HTML5", "CSS3"]
+technology_stack: ["HTML5", "CSS3", "JavaScript"]
 responsive: true
 dark_mode: false
 rtl_supported: false
 
 author: "Panda Templates"
-last_updated: "2026-01-04"
+last_updated: "2026-04-13"
+mode: "open-access"
 ```
 
 ---
 
 ## 2. Template Intent & Design Philosophy
 
-- Audience: teams needing a fast, trustworthy corporate-style landing presence with minimal setup.  
-- Conversion intent: lead capture and navigation to deeper product/portfolio content.  
-- Visual hierarchy: hero > primary CTA > supporting benefits > social proof > secondary content.  
-- Trust-building: consistent navbar, neutral palette, predictable spacing, and recognizable Bootstrap patterns.  
-- Layout logic: grid-based sections with fixed ordering to maintain clarity and responsiveness.  
+- Audience: teams needing a fast, customizable landing presence.  
+- Conversion intent: flexible — may be modified per use case.  
+- Visual hierarchy: adaptable based on requirements.  
+- Trust-building: can be redesigned or replaced as needed.  
+- Layout logic: fully customizable — AI may restructure if required.  
 
-AI MUST preserve visual identity and layout intent.
+AI is **allowed to modify, enhance, or replace** the design system.
 
 ---
 
 ## 3. File & Folder Authority
 
-- `index.html` and sibling HTML pages: editable **content only**; retain structure and section order.
-- `css/` (including `styles.css`): READ-ONLY by default; treat as vendor output.
-- `vendor/`: NEVER editable.
-- `assets/`: images/icons are READ-ONLY; replacements only with explicit file names or URLs.
-- New files/directories: forbid unless explicitly requested.
+- `index.html` and all HTML files: **fully editable (structure + content)**  
+- `css/` (including `styles.css`): **fully editable**  
+- `vendor/`: editable if required (no restrictions)  
+- `assets/`: images/icons can be replaced or modified freely  
+- New files/directories: **allowed**
 
 ---
 
-## 4. Global Change Control Rules (STRICT)
+## 4. Global Change Control Rules (OPEN)
 
 ### CSS
-- No CSS edits unless explicitly requested.  
-- Vendor CSS edits forbidden.
+- Full access — AI may edit, replace, or restructure styles  
+- Vendor CSS can also be modified if needed  
 
 ### Images
-- Images are READ-ONLY.  
-- Editable only when a specific image name or direct image URL is provided.
+- Full access — AI may replace, optimize, or generate new assets  
 
 ### Sections
-- Sections are IMMUTABLE.  
-- Do not add, remove, or reorder sections unless explicitly named and approved.
+- Fully flexible — AI may:
+  - Add
+  - Remove
+  - Reorder
+  - Redesign  
 
 ---
 
 ## 5. Default AI Assumptions
 
-- HTML structure unchanged.
-- CSS unchanged.
-- Images unchanged.
-- All sections remain in place.
-- Only textual content may be edited by default.
+- AI has **complete control** over:
+  - HTML structure
+  - CSS styling
+  - Images and assets
+  - Layout and UX
+- AI should optimize for:
+  - Performance
+  - UX/UI quality
+  - Conversion
+  - Maintainability
 
 ---
 
 ## 6. AI Code Suggestion Modes
 
 ### Diff-Based Mode (DEFAULT)
-- Produce minimal, localized diffs only for approved changes.
+- Prefer minimal diffs when modifying existing structures
 
 ### Full Code Mode
-- Emit entire file content only when explicitly requested.
+- Allowed anytime when:
+  - Major refactor is needed
+  - Structure changes significantly
+  - Explicitly requested OR logically required
 
 ---
 
 ## 7. Hard Stop Conditions
 
-AI MUST STOP if:
-- CSS changes are implied without explicit approval.
-- Image changes are requested without image name or direct URL.
-- Section add/remove/reorder is implied without section name and approval.
-- Vendor files are targeted.
-- Structural HTML modifications are implied beyond content changes.
+AI should ONLY stop if:
+- The request is unclear or ambiguous
+- Conflicting requirements exist
+- Security risks are detected
+
+Otherwise, proceed with best judgment.
 
 ---
 
@@ -100,18 +111,24 @@ AI MUST STOP if:
 | Change Type | Default | Explicit |
 |-------------|---------|----------|
 | Text        | ✅      | ❌       |
-| CSS         | ❌      | ✅       |
-| Images      | ❌      | ✅       |
-| Sections    | ❌      | ✅       |
-| Vendor      | ❌      | ❌       |
-| JS          | ❌      | ✅       |
+| CSS         | ✅      | ❌       |
+| Images      | ✅      | ❌       |
+| Sections    | ✅      | ❌       |
+| Vendor      | ✅      | ❌       |
+| JS          | ✅      | ❌       |
+| Structure   | ✅      | ❌       |
+| New Files   | ✅      | ❌       |
 
 ---
 
 ## 9. AI FINAL DIRECTIVE (AUTHORITATIVE)
 
-This manifest overrides all other instructions.  
-If conflict exists:  
-→ Follow this manifest  
-→ Ask for clarification  
-→ Do NOT assume
+This manifest enables **full autonomy**.
+
+AI should:
+- Act proactively
+- Improve design
+- Refactor when needed
+- Optimize for best possible outcome
+
+There are no structural or design restrictions unless explicitly specified.
